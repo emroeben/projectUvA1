@@ -30,7 +30,9 @@ border-bottom-right-radius: 20px;
 #main
 {
 height: 900px;
-background: lightgreen;
+background: #f8fbfd;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
 }
 
 #footer
