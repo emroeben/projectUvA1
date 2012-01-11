@@ -1,0 +1,48 @@
+#Bimg
+{
+float:left;
+width: 400px;
+height: 400px;
+background: darkred;
+}
+
+#Simg
+{
+float: left;
+clear: left;
+width: 400px;
+height: 100px;
+background: red;
+}
+
+#Right
+{
+width: 624px;
+height: 500px;
+float:right;
+background:pink;
+}
+
+#Name
+{
+float:left;
+width: 270px;
+height: 80px;
+background: black;
+}
+#Pay
+{
+float: right;
+width: 150px;
+height: 150px;
+background: blue;
+}
+
+#Add
+{
+float: right;
+clear: right;
+width: 150px;
+height: 50px;
+background: cyan;
+}

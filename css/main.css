@@ -1,0 +1,74 @@
+#filter
+{
+float: left;
+width: 224px;
+height: 100%;
+background: darkgreen;
+}
+
+#shop
+{
+
+position: relative;
+width: 800px;
+height: 800px;
+background: yellow;
+float: right;
+}
+
+#pri-nav
+{
+float: right;
+width: 800px;
+height: 70px;
+background: black;
+}
+
+#sec-nav
+{
+float: right;
+height: 30px;
+width: 800px;
+background: purple;
+}
+.item
+{
+float: left;
+margin: 10px;
+width: 180px;
+height: 180px;
+background: red;
+}
+
+.itemI
+{
+float: left;
+width: 130px;
+height: 120px;
+background: blue;
+}
+
+.naam
+{
+width: 130px;
+height: 30px;
+float:left;
+clear:left;
+background:purple;
+}
+
+.bedrag
+{
+width: 50px;
+height: 150px;
+float:right;
+background: cyan;
+}
+
+.add
+{
+width: 180px;
+height: 30px;
+clear:both;
+background:darkred;
+}
