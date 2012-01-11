@@ -3,7 +3,7 @@
 float: left;
 width: 224px;
 height: 100%;
-background: darkgreen;
+background: #f23d7f;
 }
 
 #shop
@@ -12,7 +12,7 @@ background: darkgreen;
 position: relative;
 width: 800px;
 height: 800px;
-background: yellow;
+background: #F2B3C4;
 float: right;
 }
 
@@ -21,7 +21,7 @@ float: right;
 float: right;
 width: 800px;
 height: 70px;
-background: black;
+background: #f285a2;
 }
 
 #sec-nav
@@ -29,7 +29,7 @@ background: black;
 float: right;
 height: 30px;
 width: 800px;
-background: purple;
+background: #bd0515;
 }
 .item
 {
