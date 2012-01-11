@@ -22,7 +22,7 @@ body
 {
 width: 100%;
 height: 170px;
-background: #bd0515;
+background: #bdFFFF;
 }
 
 #main
@@ -37,6 +37,8 @@ clear: both;
 width: 100%;
 height: 50px;
 background: #f23d7f;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
 }
 
 #account
@@ -49,7 +51,7 @@ float: right;
 filter:alpha(opacity=80); /* For IE8 */
 background-color: #bd0515;
 opacity:0.8;
-
+border-bottom-left-radius: 15px;
 }
 #logo
 {
@@ -82,5 +84,6 @@ height: 50px;
 width: 200px;
 float:right;
 background: #bd0515;
+border-bottom-right-radius: 20px;
 }
 
