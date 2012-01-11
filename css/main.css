@@ -4,6 +4,8 @@ float: left;
 width: 224px;
 height: 100%;
 background: #f23d7f;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
 }
 
 #shop
@@ -22,6 +24,7 @@ float: right;
 width: 800px;
 height: 70px;
 background: #f285a2;
+border-top-right-radius: 20px;
 }
 
 #sec-nav
@@ -38,6 +41,9 @@ margin: 10px;
 width: 180px;
 height: 180px;
 background: red;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
 }
 
 .itemI
@@ -63,6 +69,7 @@ width: 50px;
 height: 150px;
 float:right;
 background: cyan;
+border-top-right-radius: 10px;
 }
 
 .add
@@ -71,4 +78,6 @@ width: 180px;
 height: 30px;
 clear:both;
 background:darkred;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
 }
