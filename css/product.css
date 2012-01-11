@@ -3,7 +3,7 @@
 float:left;
 width: 400px;
 height: 400px;
-background: darkred;
+background: #F8FBFD;
 }
 
 #Simg
@@ -12,7 +12,7 @@ float: left;
 clear: left;
 width: 400px;
 height: 100px;
-background: red;
+background: #F285A2;
 }
 
 #Right
@@ -28,14 +28,14 @@ background:pink;
 float:left;
 width: 270px;
 height: 80px;
-background: black;
+background: #BD0515;
 }
 #Pay
 {
 float: right;
 width: 150px;
 height: 150px;
-background: blue;
+background: #F23D7F;
 }
 
 #Add
@@ -44,5 +44,5 @@ float: right;
 clear: right;
 width: 150px;
 height: 50px;
-background: cyan;
+background: #BD0515;
 }
