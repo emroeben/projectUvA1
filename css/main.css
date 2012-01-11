@@ -25,6 +25,7 @@ width: 800px;
 height: 70px;
 background: #f285a2;
 border-top-right-radius: 20px;
+border-top-left-radius: 20px;
 }
 
 #sec-nav
