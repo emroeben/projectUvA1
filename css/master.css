@@ -70,11 +70,11 @@ border-top-left-radius: 20px;
 {
 
 height: 50px;
-width: 813px; /* 824 - padding-left */
+width: 804px; /* 824 - padding-left */
 background: #f23d7f;
 float:left;
 border-bottom-left-radius: 20px;
- padding-left: 11px; /* hoe ver de items van de wand af beginnen */
+ padding-left: 20px; /* hoe ver de items van de wand af beginnen */
 }
 
 /* IE5 Mac Hack \*/ 
@@ -101,7 +101,9 @@ border-bottom-right-radius: 20px;
 
 #nav-bar UL 
 { 
-	margin: 0; padding: 0; 
+	margin: 0; 
+	padding: 0; 
+	list-style-type: none;
 }
 #nav-bar LI { float: left; } /* horizontaal ipv vertivaal */
 
@@ -121,27 +123,27 @@ border-bottom-right-radius: 20px;
 	background-position: 0 -50px; 
 }
 /* zet de breedte van de buttons en de link naar het plaatje. */
-#nav-bar LI#about,
-#nav-bar LI#about a { width: 71px; background-image: url(../images/nav/about.gif); }
+#nav-bar LI#Amigurumi,
+#nav-bar LI#Amigurumi a { width: 97px; background-image: url(../images/nav/Amigurumi.png); }
 
-#nav-bar LI#services,
-#nav-bar LI#services a { width: 90px; background-image: url(../images/nav/Diensten.png); }
+#nav-bar LI#Crochet,
+#nav-bar LI#Crochet a { width: 87px; background-image: url(../images/nav/Crochet.png); }
 
-#nav-bar LI#portfolio,
-#nav-bar LI#portfolio a { width: 95px; background-image: url(../images/nav/portfolio.gif); }
+#nav-bar LI#Clay,
+#nav-bar LI#Clay a { width: 113px; background-image: url(../images/nav/Clay.png); }
 
-#nav-bar LI#contact,
-#nav-bar LI#contact a { width: 106px; background-image: url(../images/nav/contact.gif); }
+#nav-bar LI#Jewelry,
+#nav-bar LI#Jewelry a { width: 84px; background-image: url(../images/nav/Jewelry.png); }
 /* als de knop is aangeklikt zorg dat de background 100px naar 
 beneden gaat, en dus de aangeklikt stand krijgt */
-body.about LI#about,
-body.about LI#about a,
-body.services LI#services,
-body.services LI#services a,
-body.portfolio LI#portfolio,
-body.portfolio LI#portfolio a,
-body.contact LI#contact,
-body.contact LI#contact a {
+body.Amigurumi LI#Amigurumi,
+body.Amigurumi LI#Amigurumi a,
+body.Crochet LI#Crochet,
+body.Crochet LI#Crochet a,
+body.Clay LI#Clay,
+body.Clay LI#Clay a,
+body.Jewelry LI#Jewelry,
+body.Jewelry LI#Jewelry a {
 	background-position: 0 -100px;
 }
 
