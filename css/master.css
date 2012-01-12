@@ -124,16 +124,16 @@ border-bottom-right-radius: 20px;
 }
 /* zet de breedte van de buttons en de link naar het plaatje. */
 #nav-bar LI#Amigurumi,
-#nav-bar LI#Amigurumi a { width: 97px; background-image: url(../images/nav/Amigurumi.png); }
+#nav-bar LI#Amigurumi a { width: 128px; background-image: url(../images/nav/Amigurumi.png); }
 
 #nav-bar LI#Crochet,
-#nav-bar LI#Crochet a { width: 87px; background-image: url(../images/nav/Crochet.png); }
+#nav-bar LI#Crochet a { width: 109px; background-image: url(../images/nav/Crochet.png); }
 
 #nav-bar LI#Clay,
-#nav-bar LI#Clay a { width: 113px; background-image: url(../images/nav/Clay.png); }
+#nav-bar LI#Clay a { width: 145px; background-image: url(../images/nav/Clay.png); }
 
 #nav-bar LI#Jewelry,
-#nav-bar LI#Jewelry a { width: 84px; background-image: url(../images/nav/Jewelry.png); }
+#nav-bar LI#Jewelry a { width: 105px; background-image: url(../images/nav/Jewelry.png); }
 /* als de knop is aangeklikt zorg dat de background 100px naar 
 beneden gaat, en dus de aangeklikt stand krijgt */
 body.Amigurumi LI#Amigurumi,
