@@ -121,11 +121,11 @@ border-bottom-right-radius: 20px;
 	background-position: 0 -50px; 
 }
 /* zet de breedte van de buttons en de link naar het plaatje. */
-#nav-bar LI#about,
-#nav-bar LI#about a { width: 71px; background-image: url(../images/nav/about.gif); }
+#nav-bar LI#Amigurumi,
+#nav-bar LI#Amigurumi a { width: 97px; background-image: url(../images/nav/Amigurumi.png); }
 
-#nav-bar LI#services,
-#nav-bar LI#services a { width: 90px; background-image: url(../images/nav/Diensten.png); }
+#nav-bar LI#Crochet,
+#nav-bar LI#Crochet a { width: 87px; background-image: url(../images/nav/Crochet.png); }
 
 #nav-bar LI#portfolio,
 #nav-bar LI#portfolio a { width: 95px; background-image: url(../images/nav/portfolio.gif); }
@@ -134,10 +134,10 @@ border-bottom-right-radius: 20px;
 #nav-bar LI#contact a { width: 106px; background-image: url(../images/nav/contact.gif); }
 /* als de knop is aangeklikt zorg dat de background 100px naar 
 beneden gaat, en dus de aangeklikt stand krijgt */
-body.about LI#about,
-body.about LI#about a,
-body.services LI#services,
-body.services LI#services a,
+body.about LI#Amigurumi,
+body.about LI#Amigurumi a,
+body.services LI#Crochet,
+body.services LI#Crochet a,
 body.portfolio LI#portfolio,
 body.portfolio LI#portfolio a,
 body.contact LI#contact,
