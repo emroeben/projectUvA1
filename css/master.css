@@ -12,6 +12,14 @@ body
 	background: #f8fbfd
 }
 
+a
+{
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+text-decoration:none;
+color:#bd0515;
+}
 #page-container 
 {
 	width: 1024px;

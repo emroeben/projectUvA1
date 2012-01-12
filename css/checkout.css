@@ -1,0 +1,79 @@
+#checkout_body
+{
+height: auto;
+width: 1024px;
+float:left;
+background: #f2b3c4;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+#checkout_main
+{
+height: auto;
+width: 804px;
+float:left;
+background: #f2b3c4;
+margin: 30px 110px;
+}
+#checkout_top
+{
+height: 40px;
+width: 460px;
+float:left;
+background: #f23d7f;
+padding:20px;
+border-top-left-radius: 20px;
+}
+
+.checkout_item
+{
+width:800px;
+height:30px;
+border: 2px solid black;
+background: #f8fbfd;
+float:right;
+}
+
+.checkout_item_price
+{
+width: 140px;
+height:20px;
+float:right;
+background: #f8fbfd;
+padding: 5px;
+}
+.checkout_item_name
+{
+width: 230px;
+height: 20px;
+float:left;
+background: #bd0515;
+padding:5px;
+}
+.checkout_item_info
+{
+width: 50%;
+height:20px;
+float:right;
+background: #f2b3c4;
+padding:5px;
+}
+#checkout_end
+{
+width:140px;
+height:90px;
+border: 2px solid black;
+background: #f285a2;
+float:right;
+padding:5px;
+margin: 0px 0px 0px 300px;
+}
+#checkout_bottom
+{
+width:380px;
+height:40px;
+float:right;
+background: #f23d7f;
+padding:20px 20px 20px 0px;
+border-bottom-right-radius: 20px;
+}
