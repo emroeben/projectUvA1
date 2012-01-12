@@ -1,6 +1,6 @@
 #adBig
 {
-width: 723px;
+width: 724px;
 height: 300px;
 background: #f2b3c4;
 border-top-left-radius: 20px;
@@ -16,9 +16,42 @@ float: right;
 }
 .adS
 {
-width: 239px; /* eigenlijk 241px door de lijn */
-height: 158px; /* eigenlijk 160px door de lijn */
-float:left;
+width: 240px; /* eigenlijk 241px door de lijn */
+height: 160px; /* eigenlijk 160px door de lijn */
+float:right;
 background-color: #f8fbfd; /* wit */
-border:1px solid black; /* lijntje om het blok */
+}
+#login_border
+{
+width:200px;
+height:270px;
+float:left;
+margin:30px 50px;
+background: #f2a3c4;
+border-radius: 15px;
+}
+#login_top
+{
+width:160px;
+height:90px;
+float:left;
+padding:10px 20px;
+background: #bd0515;
+border-radius: 15px;
+}
+.login_title
+{
+width:160px;
+height:20px;
+float:left;
+padding:5px 20px;
+background: #f2a3c4;
+}
+.login_item
+{
+width:160px;
+height:25px;
+float:left;
+padding:0px 20px;
+background: #f2a3c4;
 }
