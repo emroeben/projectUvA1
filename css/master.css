@@ -70,11 +70,11 @@ border-top-left-radius: 20px;
 {
 
 height: 50px;
-width: 813px; /* 824 - padding-left */
+width: 804px; /* 824 - padding-left */
 background: #f23d7f;
 float:left;
 border-bottom-left-radius: 20px;
- padding-left: 11px; /* hoe ver de items van de wand af beginnen */
+ padding-left: 20px; /* hoe ver de items van de wand af beginnen */
 }
 
 /* IE5 Mac Hack \*/ 
@@ -101,7 +101,9 @@ border-bottom-right-radius: 20px;
 
 #nav-bar UL 
 { 
-	margin: 0; padding: 0; 
+	margin: 0; 
+	padding: 0; 
+	list-style-type: none;
 }
 #nav-bar LI { float: left; } /* horizontaal ipv vertivaal */
 
@@ -134,14 +136,14 @@ border-bottom-right-radius: 20px;
 #nav-bar LI#Jewelry a { width: 84px; background-image: url(../images/nav/Jewelry.png); }
 /* als de knop is aangeklikt zorg dat de background 100px naar 
 beneden gaat, en dus de aangeklikt stand krijgt */
-body.about LI#Amigurumi,
-body.about LI#Amigurumi a,
-body.services LI#Crochet,
-body.services LI#Crochet a,
-body.portfolio LI#Clay,
-body.portfolio LI#Clay a,
-body.contact LI#Jewelry,
-body.contact LI#Jewelry a {
+body.Amigurumi LI#Amigurumi,
+body.Amigurumi LI#Amigurumi a,
+body.Crochet LI#Crochet,
+body.Crochet LI#Crochet a,
+body.Clay LI#Clay,
+body.Clay LI#Clay a,
+body.Jewelry LI#Jewelry,
+body.Jewelry LI#Jewelry a {
 	background-position: 0 -100px;
 }
 
