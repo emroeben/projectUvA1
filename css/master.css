@@ -70,11 +70,17 @@ border-top-left-radius: 20px;
 {
 
 height: 50px;
-width: 824px;
+width: 813px; /* 824 - padding-left */
 background: #f23d7f;
 float:left;
 border-bottom-left-radius: 20px;
+ padding-left: 11px; /* hoe ver de items van de wand af beginnen */
 }
+
+/* IE5 Mac Hack \*/ 
+/*/ 
+#nav-bar { padding-left: 11px; overflow: hidden; } 
+/* End Hack */
 
 #winkel
 {
@@ -91,5 +97,51 @@ width: 200px;
 float:right;
 background: #bd0515;
 border-bottom-right-radius: 20px;
+}
+
+#nav-bar UL 
+{ 
+	margin: 0; padding: 0; 
+}
+#nav-bar LI { float: left; } /* horizontaal ipv vertivaal */
+
+
+
+
+#nav-bar LI a {
+	display: block;
+	height: 0px !important;
+	height /**/:50px; /* IE 5/Win hack */ 
+	padding: 50px 0 0 0;
+	overflow: hidden; /*hides text by overflow */
+	background-repeat: no-repeat;
+}
+/* achtergrond van button gaat 50px omhoog wanneer je erover heen gaat */
+#nav-bar LI a:hover {
+	background-position: 0 -50px; 
+}
+/* zet de breedte van de buttons en de link naar het plaatje. */
+#nav-bar LI#about,
+#nav-bar LI#about a { width: 71px; background-image: url(../images/nav/about.gif); }
+
+#nav-bar LI#services,
+#nav-bar LI#services a { width: 90px; background-image: url(../images/nav/Diensten.png); }
+
+#nav-bar LI#portfolio,
+#nav-bar LI#portfolio a { width: 95px; background-image: url(../images/nav/portfolio.gif); }
+
+#nav-bar LI#contact,
+#nav-bar LI#contact a { width: 106px; background-image: url(../images/nav/contact.gif); }
+/* als de knop is aangeklikt zorg dat de background 100px naar 
+beneden gaat, en dus de aangeklikt stand krijgt */
+body.about LI#about,
+body.about LI#about a,
+body.services LI#services,
+body.services LI#services a,
+body.portfolio LI#portfolio,
+body.portfolio LI#portfolio a,
+body.contact LI#contact,
+body.contact LI#contact a {
+	background-position: 0 -100px;
 }
 
