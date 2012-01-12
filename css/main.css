@@ -1,9 +1,10 @@
 #filter
 {
 float: left;
-width: 224px;
-height: 100%;
+width: 184px;
+height: 700px;
 background: #f23d7f;
+padding:100px 20px;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
 }
@@ -33,7 +34,7 @@ border-top-left-radius: 20px;
 float: right;
 height: 30px;
 width: 800px;
-background: #f8fbfd;
+background: #f2a3c4;
 }
 .item
 {
@@ -81,8 +82,8 @@ border-top-right-radius: 10px;
 .add
 {
 width: 180px;
-height: 20px;
-padding: 5px 0px;
+height: 26px;
+padding: 2px 0px;
 clear:both;
 background:#BD0515;
 border-bottom-right-radius: 10px;
