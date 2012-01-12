@@ -41,10 +41,13 @@ float: left;
 margin: 10px;
 width: 180px;
 height: 180px;
-background: red;
+background: #F2B3C4;
 border-top-right-radius: 10px;
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
+color:black;
+font-family:Bodoni MT;
+font-size:15px;"
 }
 
 .itemI
@@ -52,33 +55,36 @@ border-bottom-right-radius: 10px;
 float: left;
 width: 130px;
 height: 120px;
-background: blue;
+background: #F2B3C4;
 }
 
 .naam
 {
 width: 130px;
-height: 30px;
+height: 20px;
+padding:5px 0px;
 float:left;
 clear:left;
-background:purple;
+background:#F285A2;
 }
 
 .bedrag
 {
 width: 50px;
-height: 150px;
+height: 140px;
 float:right;
-background: cyan;
+padding:5px 0px;
+background: #F23D7F;
 border-top-right-radius: 10px;
 }
 
 .add
 {
 width: 180px;
-height: 30px;
+height: 20px;
+padding: 5px 0px;
 clear:both;
-background:darkred;
+background:#BD0515;
 border-bottom-right-radius: 10px;
 border-bottom-left-radius: 10px;
 }

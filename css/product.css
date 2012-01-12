@@ -3,15 +3,17 @@
 float:left;
 width: 400px;
 height: 400px;
-background: #F8FBFD;
+background-image:url('../images/products/jellyfish_blue_01_large.png');
+border-top-left-radius: 20px;
 }
 
 #Simg
 {
+padding:10px;
 float: left;
 clear: left;
-width: 400px;
-height: 100px;
+width: 380px;
+height: 80px;
 background: #F285A2;
 }
 
@@ -20,7 +22,8 @@ background: #F285A2;
 width: 624px;
 height: 500px;
 float:right;
-background:pink;
+background:#F2B3C4;
+border-top-right-radius: 20px;
 }
 
 #Name
@@ -29,6 +32,7 @@ float:left;
 width: 270px;
 height: 80px;
 background: #BD0515;
+border-bottom-right-radius: 15px;
 }
 #Pay
 {
@@ -36,6 +40,7 @@ float: right;
 width: 150px;
 height: 150px;
 background: #F23D7F;
+border-top-right-radius: 20px;
 }
 
 #Add
@@ -45,4 +50,5 @@ clear: right;
 width: 150px;
 height: 50px;
 background: #BD0515;
+border-bottom-left-radius: 15px;
 }
