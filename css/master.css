@@ -14,10 +14,10 @@ body
 
 a
 {
-font-style:normal;
-font-variant:normal;
-font-weight:normal;
-text-decoration:none;
+font-style:inherit;
+font-variant:inherit;
+font-weight:inherit;
+text-decoration:inherit;
 color:#bd0515;
 }
 #page-container 
