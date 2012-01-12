@@ -16,8 +16,8 @@ float: right;
 }
 .adS
 {
-width: 240px; /* eigenlijk 241px door de lijn */
-height: 160px; /* eigenlijk 160px door de lijn */
+width: 241px; 
+height: 160px;
 float:right;
 background-color: #f8fbfd; /* wit */
 }
