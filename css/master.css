@@ -131,6 +131,9 @@ border-bottom-right-radius: 20px;
 	background-position: 0 -50px; 
 }
 /* zet de breedte van de buttons en de link naar het plaatje. */
+#nav-bar li#Home,
+#nav-bar li#Home a { width: 78px; background-image: url(../images/nav/home.png); }
+
 #nav-bar li#Amigurumi,
 #nav-bar li#Amigurumi a { width: 128px; background-image: url(../images/nav/Amigurumi.png); }
 
@@ -147,6 +150,8 @@ border-bottom-right-radius: 20px;
 #nav-bar li#Contact a { width: 109px; background-image: url(../images/nav/Contact.png); }
 /* als de knop is aangeklikt zorg dat de background 100px naar 
 beneden gaat, en dus de aangeklikt stand krijgt */
+body.Home li#Home,
+body.Home li#Home a,
 body.Amigurumi li#Amigurumi,
 body.Amigurumi li#Amigurumi a,
 body.Crochet li#Crochet,

@@ -66,13 +66,13 @@ border: 2px solid black;
 background: #f285a2;
 float:right;
 padding:5px;
-margin: 0px 0px 0px 300px;
 }
 #checkout_bottom
 {
-width:380px;
+width:480px;
 height:40px;
 float:right;
+clear:right;
 background: #f23d7f;
 padding:20px 20px 20px 0px;
 border-bottom-right-radius: 20px;
