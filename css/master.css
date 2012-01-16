@@ -132,7 +132,7 @@ border-bottom-right-radius: 20px;
 }
 /* zet de breedte van de buttons en de link naar het plaatje. */
 #nav-bar li#Home,
-#nav-bar li#Home a { width: 78px; background-image: url(../images/nav/home.png); }
+#nav-bar li#Home a { width: 78px; background-image: url(../images/nav/Home.png); }
 
 #nav-bar li#Amigurumi,
 #nav-bar li#Amigurumi a { width: 128px; background-image: url(../images/nav/Amigurumi.png); }
