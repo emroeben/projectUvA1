@@ -4,7 +4,7 @@ width: 724px;
 height: 300px;
 background-image: url('../images/add.gif');
 border-top-left-radius: 20px;
-float: left
+float: left;
 }
 #login
 {
@@ -37,6 +37,11 @@ height:90px;
 float:left;
 padding:10px 20px;
 background: #bd0515;
+font-family:Book Antiqua;
+font-weight:bold;
+font-size:60px;
+color:#efc0c8;
+text-align: center;
 border-radius: 15px;
 }
 .login_title

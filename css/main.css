@@ -66,6 +66,7 @@ height: 20px;
 padding:5px 0px;
 float:left;
 clear:left;
+text-align: center;
 background:#F285A2;
 }
 
@@ -76,6 +77,7 @@ height: 140px;
 float:right;
 padding:5px 0px;
 background: #F23D7F;
+text-align: center;
 border-top-right-radius: 10px;
 }
 
@@ -86,6 +88,13 @@ height: 26px;
 padding: 2px 0px;
 clear:both;
 background:#BD0515;
+text-align: center;
 border-bottom-right-radius: 10px;
 border-bottom-left-radius: 10px;
+}
+.dl-style
+{
+font-family:Bodoni MT;
+font-size:15px;
+color:black;
 }

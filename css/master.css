@@ -9,9 +9,26 @@ body
 	font-family: Arial, Helvetica, Verdana, Sans-serif;
 	font-size: 12px;
 	color: #666666;
-	background: #f8fbfd
+	background: #f8fbfd;
 }
 
+#midden
+ {
+	height:600px;  
+	background: #f2b3c4; 
+	padding: 40px;
+	text-align: center;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+ }
+
+ table.center
+ {
+	width:400px;
+	margin:auto;
+	
+ }
+ 
 a
 {
 font-style:inherit;

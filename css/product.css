@@ -16,7 +16,11 @@ width: 380px;
 height: 80px;
 background: #F285A2;
 }
-
+.inner
+{
+        display: table;
+        margin: auto;
+}
 #Right
 {
 width: 624px;
@@ -32,6 +36,10 @@ float:left;
 width: 270px;
 height: 80px;
 background: #BD0515;
+font-family:Segoe Print Bold;
+font-size:220%;
+color:black;
+text-align: center;
 border-bottom-right-radius: 15px;
 }
 #Pay
@@ -40,6 +48,10 @@ float: right;
 width: 150px;
 height: 150px;
 background: #F23D7F;
+text-align:center; 
+font-family:Segoe Print Bold;
+font-size:300%;
+color:black;
 border-top-right-radius: 20px;
 }
 
@@ -50,5 +62,12 @@ clear: right;
 width: 150px;
 height: 50px;
 background: #BD0515;
+text-align:center;
+font-family:Segoe Print Bold;
+font-size:190%;
+color:black;
 border-bottom-left-radius: 15px;
 }
+
+
+

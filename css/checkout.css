@@ -75,5 +75,10 @@ float:right;
 clear:right;
 background: #f23d7f;
 padding:20px 20px 20px 0px;
+text-align: right;
+font-variant:small-caps;
+font-family:Bodoni MT;
+font-size:12px;
+color:black;
 border-bottom-right-radius: 20px;
 }
