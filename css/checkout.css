@@ -38,7 +38,7 @@ float:right;
 {
 width: 140px;
 height:20px;
-float:right;
+float:left;
 background: #f8fbfd;
 padding: 5px;
 }
@@ -54,7 +54,7 @@ padding:5px;
 {
 width: 50%;
 height:20px;
-float:right;
+float:left;
 background: #f2b3c4;
 padding:5px;
 }

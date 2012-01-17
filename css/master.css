@@ -26,7 +26,7 @@ body
  {
 	width:400px;
 	margin:auto;
-	
+	text-align:left;
  }
  
 a
@@ -96,10 +96,11 @@ border-top-left-radius: 20px;
 
 height: 50px;
 width: 804px; /* 824 - padding-left */
+padding-left: 20px; /* hoe ver de items van de wand af beginnen */
 background: #f23d7f;
 float:left;
 border-bottom-left-radius: 20px;
- padding-left: 20px; /* hoe ver de items van de wand af beginnen */
+
 }
 
 /* IE5 Mac Hack \*/ 
