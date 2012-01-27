@@ -3,7 +3,8 @@
 float:left;
 width: 400px;
 height: 400px;
-background-image:url('../images/products/jellyfish_blue_01_large.png');
+background: #F285A2;
+background-size: 100% 100%;
 border-top-left-radius: 20px;
 }
 
@@ -15,6 +16,19 @@ clear: left;
 width: 380px;
 height: 80px;
 background: #F285A2;
+}
+
+.small
+{
+width:80px;
+height:80px;
+}
+
+.plat
+{
+border-top-left-radius: 20px;
+width: 400px;
+height: 400px;
 }
 .inner
 {
@@ -36,8 +50,8 @@ float:left;
 width: 270px;
 height: 80px;
 background: #BD0515;
-font-family:Segoe Print Bold;
-font-size:220%;
+font-family:Bodoni;
+font-size:250%;
 color:black;
 text-align: center;
 border-bottom-right-radius: 15px;
@@ -49,8 +63,8 @@ width: 150px;
 height: 150px;
 background: #F23D7F;
 text-align:center; 
-font-family:Segoe Print Bold;
-font-size:300%;
+font-family:Bodoni;
+font-size:350%;
 color:black;
 border-top-right-radius: 20px;
 }
@@ -63,8 +77,8 @@ width: 150px;
 height: 50px;
 background: #BD0515;
 text-align:center;
-font-family:Segoe Print Bold;
-font-size:190%;
+font-family:Bodoni;
+font-size:250%;
 color:black;
 border-bottom-left-radius: 15px;
 }

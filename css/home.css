@@ -60,3 +60,10 @@ float:left;
 padding:0px 20px;
 background: #f2a3c4;
 }
+#logged_in
+{
+font-family:"Times New Roman", Times, serif;
+padding:20px 25px;
+font-size:25px;
+color:#ffffff;
+}

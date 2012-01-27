@@ -3,3 +3,9 @@
  text-align: center;
  }
  
+table.center2
+ {
+	width:760px;
+	margin:auto;
+	text-align:left;
+ }

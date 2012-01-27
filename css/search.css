@@ -1,39 +1,19 @@
-#filter
-{
-float: left;
-width: 184px;
-height: 700px;
-background: #bd0515;
-padding:100px 20px;
-border-top-left-radius: 20px;
-}
-
-.filterI
-{
-width:165px;
-height:520px;
-border:1px solid #f8fbfd; 
-border-radius: 15px; 
-padding-left: 15px;
-}
-
 #shop
 {
 
 position: relative;
-width: 800px;
-height: 800px;
+width: 1024px;
+height: 820px;
 background: #F2B3C4;
-float: right;
 }
 
 #pri-nav
 {
-float: right;
-width: 800px;
+width: 1024px;
 height: 70px;
 background: #f285a2;
 border-top-right-radius: 20px;
+border-top-left-radius: 20px;
 position:relative;
 font-family:Bodoni;
 font-size:200%;
@@ -47,19 +27,25 @@ margin-top:-yy;
 margin-left:auto;
 margin-right:auto;
 text-align:center;
-width:400px;
+width:512px;
 height:30px;
 
 }
 #sec-nav
 {
-float: right;
 height: 30px;
-width: 800px;
-background: #f2a3c4;
+width: 1024px;
+background: #f285a2;
 position:relative;
 font-family:Bodoni;
 font-size:100%;
+}
+#ms
+{
+height: 920px;
+background: #f8fbfd;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
 }
 .item
 {
@@ -116,18 +102,6 @@ background:#BD0515;
 text-align: center;
 border-bottom-right-radius: 10px;
 border-bottom-left-radius: 10px;
-}
-.dl-style
-{
-font-family:Bodoni MT;
-font-size:15px;
-color:black;
-}
-
-.dt-style
-{
-font-weight:bold;
-font-size:20px;
 }
 
 p.price

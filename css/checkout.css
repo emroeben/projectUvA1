@@ -34,6 +34,15 @@ background: #f8fbfd;
 float:right;
 }
 
+.checkout_item_buttons
+{
+width:40px;
+height:28px;
+float:left;
+background: #bd0515;
+padding: 1px;
+}
+
 .checkout_item_price
 {
 width: 140px;
@@ -44,7 +53,7 @@ padding: 5px;
 }
 .checkout_item_name
 {
-width: 230px;
+width: 180px;
 height: 20px;
 float:left;
 background: #bd0515;
