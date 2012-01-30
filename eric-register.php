@@ -78,55 +78,55 @@ include 'Verbindingsdata.php';
 		if(strlen($_POST['pass2']) > 5 && strlen($_POST['pass2']) < 19)
 		{$passlength2 = 1;}
 		
-		if(isset($_POST['first']) && !empty($_POST['first']) && $_POST['first'] == filter_var($_POST['first'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW))
+		if(isset($_POST['first']) && !empty($_POST['first']) && filter_var($_POST['first'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW))
 		{$fname_check = 1;}
 		
-		if(isset($_POST['last']) && !empty($_POST['last']) && $_POST['last'] == filter_var($_POST['last'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW))
+		if(isset($_POST['last']) && !empty($_POST['last']) && filter_var($_POST['last'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW))
 		{$lname_check = 1;}
 		
-		if(isset($_POST['company']) && $_POST['company'] == filter_var($_POST['company'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW) || empty($_POST['company']))
+		if(isset($_POST['company']) && filter_var($_POST['company'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW) || empty($_POST['company']))
 		{$company_check = 1;}
 		
-		if(isset($_POST['birthday']) && !empty($_POST['birthday']) && $_POST['birthday'] ==  filter_var($_POST['birthday'],
-		FILTER_FLAG_STRIP_LOW, FILTER_SANITIZE_NUMBER_INT) && $_POST['birthday'] > 0 && $_POST['birthday'] < 32)
+		if(isset($_POST['birthday']) && !empty($_POST['birthday']) && filter_var($_POST['birthday'], 
+		FILTER_VALIDATE_INT, FILTER_FLAG_STRIP_LOW) && $_POST['birthday'] > 0 && $_POST['birthday'] < 32)
 		{$birthday_check = 1;}
 		
-		if(isset($_POST['birthmonth']) && !empty($_POST['birthmonth']) && $_POST['birthmonth'] == filter_var($_POST['birthmonth'], 
-		FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_LOW) && $_POST['birthmonth'] > 0 && $_POST['birthmonth'] < 13)
+		if(isset($_POST['birthmonth']) && !empty($_POST['birthmonth']) && filter_var($_POST['birthmonth'], 
+		FILTER_VALIDATE_INT, FILTER_FLAG_STRIP_LOW) && $_POST['birthmonth'] > 0 && $_POST['birthmonth'] < 13)
 		{$birthmonth_check = 1;}
 		
-		if(isset($_POST['birthyear']) && !empty($_POST['birthyear']) && $_POST['birthyear'] == filter_var($_POST['birthyear'], 
-		FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_LOW) && $_POST['birthyear'] > ($currentyear - 120) && $_POST['birthyear'] < ($currentyear - 10))
+		if(isset($_POST['birthyear']) && !empty($_POST['birthyear']) && filter_var($_POST['birthyear'], 
+		FILTER_VALIDATE_INT, FILTER_FLAG_STRIP_LOW) && $_POST['birthyear'] > ($currentyear - 120) && $_POST['birthyear'] < ($currentyear - 10))
 		{$birthyear_check = 1;}
 		
 		if($birthday_check == 1 && $birthmonth_check == 1 && $birthyear_check == 1)
 		{$birth_check = 1;}
 		
-		if(isset($_POST['address']) && !empty($_POST['address']) && $_POST['address'] == filter_var($_POST['address'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW))
+		if(isset($_POST['address']) && !empty($_POST['address']) && filter_var($_POST['address'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW))
 		{$address_check = 1;}
 		
-		if(isset($_POST['postal']) && !empty($_POST['postal']) && $_POST['postal'] == filter_var($_POST['postal'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW))
+		if(isset($_POST['postal']) && !empty($_POST['postal']) && filter_var($_POST['postal'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW))
 		{$postal_check = 1;}
 		
-		if(isset($_POST['city']) && !empty($_POST['city']) && $_POST['city'] == filter_var($_POST['city'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW))
+		if(isset($_POST['city']) && !empty($_POST['city']) && filter_var($_POST['city'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW))
 		{$city_check = 1;}
 		
-		if(isset($_POST['country']) && !empty($_POST['country']) && $_POST['country'] == filter_var($_POST['country'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW))
+		if(isset($_POST['country']) && !empty($_POST['country']) && filter_var($_POST['country'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW))
 		{$country_check = 1;}
 		
-		if(isset($_POST['telephone']) && !empty($_POST['telephone']) && $_POST['telephone'] == filter_var($_POST['telephone'], FILTER_SANITIZE_NUMBER_INT) && filter_var($_POST['telephone'], FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_LOW))
+		if(isset($_POST['telephone']) && !empty($_POST['telephone']) && filter_var($_POST['telephone'], FILTER_VALIDATE_INT) && filter_var($_POST['telephone'], FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_LOW))
 		{$telephone_check = 1;}
 		
-		if(isset($_POST['mail1']) && !empty($_POST['mail1']) && $_POST['mail1'] == filter_var($_POST['mail1'], FILTER_VALIDATE_EMAIL) && $_POST['mail1'] == filter_var($_POST['mail1'], FILTER_SANITIZE_EMAIL, FILTER_FLAG_STRIP_LOW))
+		if(isset($_POST['mail1']) && !empty($_POST['mail1']) && filter_var($_POST['mail1'], FILTER_VALIDATE_EMAIL) && filter_var($_POST['mail1'], FILTER_SANITIZE_EMAIL, FILTER_FLAG_STRIP_LOW))
 		{$mail1_check = 1;}
 		
-		if(isset($_POST['mail2']) && !empty($_POST['mail2']) && $_POST['mail2'] == filter_var($_POST['mail2'], FILTER_VALIDATE_EMAIL) && $_POST['mail2'] == filter_var($_POST['mail2'], FILTER_SANITIZE_EMAIL, FILTER_FLAG_STRIP_LOW))
+		if(isset($_POST['mail2']) && !empty($_POST['mail2']) && filter_var($_POST['mail2'], FILTER_VALIDATE_EMAIL) && filter_var($_POST['mail2'], FILTER_SANITIZE_EMAIL, FILTER_FLAG_STRIP_LOW))
 		{$mail2_check = 1;}
 		
-		if(isset($_POST['pass1']) && !empty($_POST['pass1']) && $_POST['pass1'] == filter_var($_POST['pass1'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW))
+		if(isset($_POST['pass1']) && !empty($_POST['pass1']) && filter_var($_POST['pass1'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW))
 		{$pass1_check = 1;}
 		
-		if(isset($_POST['pass2']) && !empty($_POST['pass2']) && $_POST['pass2'] == filter_var($_POST['pass2'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW))
+		if(isset($_POST['pass2']) && !empty($_POST['pass2']) && filter_var($_POST['pass2'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW))
 		{$pass2_check = 1;}	
 		
 		if($fname_check == 1 &&	$lname_check == 1 && $company_check == 1 && $birth_check == 1 && $address_check == 1 
@@ -155,7 +155,8 @@ include 'Verbindingsdata.php';
 						{
 							if($all_check == 0 && $fname_check == 1)
 							{
-							echo '<input type="text" name="first" maxlength="50" size="35" value="'.$_POST['first'].'"/>';
+							echo '
+							<input type="text" name="first" maxlength="50" size="35" value="'.$_POST['first'].'"/>';
 							}
 							else
 							{
